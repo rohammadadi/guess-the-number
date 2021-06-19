@@ -1,0 +1,82 @@
+body{
+	background-image: url('blackBG.jpg');
+	font-family: Magneto;
+	background-repeat: no-repeat;
+	color: white !important;
+}
+.btn{
+	background-color: lightgrey;
+	border-radius: 10px;
+	border-color: darkcyan;
+	box-shadow: 0.2rem 0.2rem 3rem white;
+	width: 150px;
+	font-family: Magneto;
+	color: darkcyan;
+	height: 50px;
+	font-size: 25px;
+	margin-left: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.author{
+	text-align: right;
+	margin-top: -70px;
+}
+#number, #questionmark{
+	text-align: center;
+	margin-top: 200px;
+	margin-left: 750px;
+	font-size: 150px;
+}
+#questionmark, #number, .gtn{
+	border: 5px solid white;
+	width: 550px;
+	background-color: darkcyan;
+	color: white !important;
+	border-radius: 30px;
+	box-shadow: 0.2rem 0.2rem 3rem white;
+}
+.gtn{
+	margin-left: 750px !important;
+	margin-top: -50px !important;
+}
+#questionmark{
+	margin-top: -300px;
+}
+.text{
+	text-align: center;
+	margin-top: -100px;
+	margin-left: 550px;
+	font-size: 50px;
+	
+}
+#Guessed{
+	margin-left: 150px;
+	font-size: 150px;
+	margin-top: -400px;
+}
+.up, .down{
+	margin-top: -600px;
+}
+.low{
+	margin-top: 100px;
+}
+.high{
+	margin-top: -150px;
+}
+.score, .scorenum, .bestscore, .bsnum{
+	text-align: right;
+	font-size: 30px;
+	margin-right: 250px;
+	
+}
+.scorenum, .bsnum{
+	margin-right: 150px !important;
+	margin-top: -65px;
+}
+.score{
+	margin-top: -550px;
+}
+.bestscore{
+	margin-top: -30px;
+}
